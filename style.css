@@ -1,0 +1,243 @@
+﻿.body {
+	background: #d7dbde;
+	color: #000000;
+	font-family: Trebuchet MS, Arial, Times New Roman;
+	font-size: 12px;
+}
+
+#container {
+	background:#cfe4ff;
+	margin: 30px auto;
+	width: 900px;
+	height: 600px;
+}
+
+#header {
+	background: #bdfcfc;
+	height: 100px;
+	width: 100%;
+        color: #136191;
+	margin-top: 10px;
+	border-radius:20px;
+        font-size: 25px;
+        box-shadow: 2px 5px 5px #838ea8
+}
+
+#navigation {
+	background: #b4b7b8;
+	width: 51%;
+        color: #303030;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding-left: 50px;
+        font-size: 20px;
+
+}
+
+#konkurs {
+        text-decoration: none;
+	color: #000000;
+
+}
+
+#zadania {
+	color: #000000;
+        text-decoration: none; 
+}
+
+#kh {
+        text-decoration: none;
+	color: #000000
+}
+
+#ks {
+        text-decoration: none; 
+	color: #000000
+}
+
+#new {
+        text-decoration: none;
+ 	color: #000000
+}
+
+#menu {
+	background: #CCEEFF;
+	width: 100%px;
+	height: 300px;
+	border-radius: 20px;
+        opacity: 0;
+}
+
+#contactme {
+	background: #dce0e0;
+	width: 20%;
+	height: 30px;
+	float: right;
+        color: #424242;
+	margin-top: -30px;
+	margin-right: 30px;
+	border-radius: 20px;
+	padding-left: 20px;
+
+} 
+
+
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides{
+	position: relative;
+	height: 300px;
+	padding: 0px;
+	margin-top: -290px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.controls{
+	display: none;
+}
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+
+	background-size: 100%;
+}
+
+/* http://unrestrictedstock.com/wp-content/uploads/snowy-winter-vignette-bokeh-night-snow-falling-free-stock-photo.jpg */
+.slide:nth-of-type(1){
+	background-color: red;
+	background-image: url('https://cdn-images-1.medium.com/max/2000/1*a0NqRKLgRkfSvY-dkUNehg.jpeg');
+}
+
+/* http://www.dawghousedesignstudio.com/wp-content/uploads/2010/01/25/free-stock-photos-1.jpg */
+.slide:nth-of-type(2){
+	background-color: orange;
+	background-image: url('https://cdn-images-1.medium.com/max/1600/1*4n_rr7T0y58-rNsVAI4klA.png');
+}
+
+/* http://www.stockfreeimages.com/static/homepage/waterfall-free-stock-photo-244915.jpg */
+.slide:nth-of-type(3){
+	background-color: green;
+	background-image: url('https://hattabr.ru/upload/media/entries/2016-04/02/95-0-1cdbe8f5b0b8fe9540cf8c27b6f2f5fb.jpg');
+}
+
+.controls{
+	background: #333;
+	color: #fff;
+	border: none;
+	padding: 20px 0px;
+	font-size: 20px;
+	cursor: pointer;
+	border: 2px solid #fff;
+	margin: 10px 0px 0px 10px;
+	width: 70px;
+}
+
+.controls:hover,
+.controls:focus{
+	background: #eee;
+	color: #333;
+}
+
+.container{
+	position: relative;
+}
+
+.buttons{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+	font-size: 0px;
+}
+
+#q {
+ background: #c2c4c4;
+ width: 330px;
+ margin-left: 865px;
+ color: #292929;
+ padding-left: 7px;
+ margin-bottom: 90px;
+ border-radius: 20px;
+ border: 1px solid #424242 
+ 
+}
+
+#w {
+ background: #dedede;
+ width: 400px;
+ margin-left: 830px;
+ color: #424242;
+ padding-left: 7px;
+ margin-top: -70px;
+ margin-bottom: -40px;
+ border-radius: 20px;
+ border: 1px solid #424242 
+}
+
+#e {
+ margin-left: 60px;
+ margin-top: -325px;
+ width: 720px;
+
+}
+
+#answer {
+ float: right;
+ margin-top: -45px;
+ margin-right: 30px;
+
+}
+
+#ssilka {
+ padding-left: 120px;
+ margin-top: -43px;
+
+}
+
+#ssilka1 {
+ margin-top: -15px;
+ margin-left: 10px;
+}
+
+#q:hover {
+opacity: 0.5;
+}
+
+#w:hover {
+opacity: 0.5;
+}
